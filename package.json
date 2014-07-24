@@ -1,0 +1,20 @@
+{
+  "name": "mike",
+  "version": "0.0.0-5",
+  "description": "this is my first",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.6.1",
+    "mysql": "^2.4.0",
+    "body-parser": "^1.4.3"
+  },
+  "subdomain": "lando2319-craps_buzz_leaderboard",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
