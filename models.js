@@ -25,7 +25,7 @@ module.exports = function(){
 	}
 
 	obj.userList = function(cb){
-		connection.query('select * from leaders', function(err, result) {
+		connection.query('select * from leaders ORDER BY cashout_amount desc, id limit 10', function(err, result) {
 		  cb(err, result)
 		});	
 	}
