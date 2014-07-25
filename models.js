@@ -14,7 +14,7 @@ module.exports = function(){
 		});
 	}
 
-	obj.userCreate = function(email, password, cb){
+	obj.enterLeaderboard = function(name, cashout_amount, cb){
 		var newUser  = {
 			name: name,
 			cashout_amount: cashout_amount,

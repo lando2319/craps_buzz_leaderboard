@@ -31,13 +31,13 @@ app.get('/api/users', function(req, res){
 
 // Insert new user (create account)
 app.post('/api/users/create', function(req, res){
-	console.log(req.param('email'))
+	console.log(req.param('name'))
 	//console.log(req.query);
 	var params = req.params;
 	var callback = function(error, result){
   	res.send(apiOutput(result));
 	}
-	models.userCreate(req.param('email'), req.param('password'), callback);
+	models.enterLeaderboard(req.param('name'), req.param('cashout_amount'), callback);
 });
 
 // ---------- Start server ----------------------
