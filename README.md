@@ -1,7 +1,7 @@
 # Craps Buzz Leaderboard
 ### NodeJS App running the Leaderboard for Craps Buzz
 
-Craps Buzz is a Craps Game Built in AngularJS, LIVE at [Craps Buzz]:
+Craps Buzz is a Craps Game Built in AngularJS, LIVE at [Craps Buzz]
 
 Version
 ----
