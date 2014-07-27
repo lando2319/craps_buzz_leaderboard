@@ -1,7 +1,7 @@
 {
-  "name": "mike",
+  "name": "craps_buzz_leaderboard",
   "version": "0.0.0-25",
-  "description": "this is my first",
+  "description": "Craps Buzz Leaderboard",
   "main": "index.js",
   "author": "",
   "license": "ISC",
