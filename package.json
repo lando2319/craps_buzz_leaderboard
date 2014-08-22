@@ -1,6 +1,6 @@
 {
-  "name": "mike",
-  "version": "0.0.0-26",
+  "name": "craps_buzz_leaderboard",
+  "version": "0.0.0-29",
   "description": "Craps Buzz Leaderboard",
   "main": "index.js",
   "author": "",
@@ -10,7 +10,7 @@
     "mysql": "^2.4.0",
     "body-parser": "^1.4.3"
   },
-  "subdomain": "lando2319-craps_buzz_leaderboard",
+  "subdomain": "lando2319-craps_buzz_leaderboard_2",
   "scripts": {
     "start": "node index.js"
   },
